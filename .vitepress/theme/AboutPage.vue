@@ -3,21 +3,20 @@
     <!-- Intro -->
     <div class="about-intro">
       <div class="about-bio">
-        <h1>任 凯</h1>
-        <p class="role">Full-Stack Engineer · Shanghai</p>
+        <h1>Zeechon</h1>
+        <p class="role">undergraduate student</p>
         <p>
-          你好，我是任凯。做软件开发已有六年，喜欢在代码的结构之美与产品的用户体验之间寻找平衡。
-          平时写写技术文章，记录学习过程中的思考与发现。
-        </p>
-        <p style="margin-top: 0.8rem;">
-          业余时间喜欢摄影、阅读和骑行。相信好的工程师首先是一个好的思考者。
+            Hello! 恭喜你发现了我的秘密基地🤫，这里记录了我的一些技术分享和生活感悟, 希望你能从这获取到一些有用的信息。
         </p>
         <div class="hero-links" style="margin-top: 1.5rem;">
           <a href="mailto:hello@renkai.dev" class="hero-link accent">发邮件</a>
           <a href="https://github.com/renkai" target="_blank" class="hero-link">GitHub ↗</a>
         </div>
       </div>
-      <div class="about-avatar">🌿</div>
+
+      <!-- 头像区域 -->
+      <div class="about-avatar"></div>
+
     </div>
 
     <!-- Timeline -->
@@ -49,7 +48,8 @@ const timeline = [
   {
     year: '2022 — 至今',
     title: '武汉大学遥感信息工程学院',
-    desc: '负责核心产品的前端架构设计，推动团队从 Vue 2 迁移至 Vue 3，性能指标整体提升 40%。'
+    specialization: '摄影测量方向',
+    desc: '本科在读'
   },
 ]
 

@@ -4,10 +4,9 @@
     <section class="hero-section">
       <div class="hero-text">
         <p class="hero-eyebrow">个人博客</p>
-        <h1 class="hero-name">任 凯<em>.</em></h1>
+        <h1 class="hero-name">Zeechon<em>.</em></h1>
         <p class="hero-desc">
-          全栈工程师，热衷于构建优雅的产品。<br>
-          在代码与文字之间，探索技术的边界与可能。
+          Hello! 恭喜你发现了我的秘密基地🤫，这里记录了我的一些技术分享和生活感悟, 希望你能从这获取到一些有用的信息。
         </p>
         <div class="hero-links">
           <a href="/blog/" class="hero-link accent">阅读文章</a>
@@ -15,7 +14,7 @@
           <a href="https://github.com/renkai" target="_blank" class="hero-link">GitHub ↗</a>
         </div>
       </div>
-      <div class="hero-avatar">🌿</div>
+      <div class="about-avatar"></div>
     </section>
 
     <div class="section-divider"><hr /></div>
