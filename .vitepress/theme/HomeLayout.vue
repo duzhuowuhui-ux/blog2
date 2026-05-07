@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="about-avatar">
-        <img src="images/profile_photo.jpg" alt="avatar" />
+        <img src="/images/profile_photo.jpg" alt="avatar" />
       </div>
     </section>
 
