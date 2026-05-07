@@ -6,7 +6,7 @@
         <h1>Zeechon</h1>
         <p class="role">undergraduate student</p>
         <p>
-            Hello! 恭喜你发现了我的秘密基地🤫，这里记录了我的一些技术分享和生活感悟, 希望你能从这获取到一些有用的信息。
+            Hello! 恭喜你发现了我的秘密基地🤫，这里记录了我的技术分享和生活感悟, 希望你能从中获取有用的信息。
         </p>
         <div class="hero-links" style="margin-top: 1.5rem;">
           <a href="mailto:hello@renkai.dev" class="hero-link accent">发邮件</a>
@@ -14,8 +14,10 @@
         </div>
       </div>
 
-      <!-- 头像区域 -->
-      <div class="about-avatar"></div>
+      <!-- ✅ 这里改成 img 标签，Vercel 必显示 -->
+      <div class="about-avatar">
+        <img src="/avatar.jpg" alt="avatar" />
+      </div>
 
     </div>
 
@@ -48,7 +50,6 @@ const timeline = [
   {
     year: '2022 — 至今',
     title: '武汉大学遥感信息工程学院',
-    specialization: '摄影测量方向',
     desc: '本科在读'
   },
 ]
@@ -60,3 +61,25 @@ const skills = [
   'Docker', 'Vercel', 'Git', 'Figma', 'Linux'
 ]
 </script>
+
+<style scoped>
+/* 头像容器 */
+.about-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 2rem;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+/* 图片样式 */
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+</style>
