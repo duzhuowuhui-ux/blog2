@@ -16,7 +16,7 @@
 
       <!-- ✅ 这里改成 img 标签，Vercel 必显示 -->
       <div class="about-avatar">
-        <img src="/avatar.jpg" alt="avatar" />
+        <img src="images/profile_photo.jpg" alt="avatar" />
       </div>
 
     </div>

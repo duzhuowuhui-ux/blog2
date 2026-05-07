@@ -14,7 +14,9 @@
           <a href="https://github.com/renkai" target="_blank" class="hero-link">GitHub ↗</a>
         </div>
       </div>
-      <div class="about-avatar"></div>
+      <div class="about-avatar">
+        <img src="images/profile_photo.jpg" alt="avatar" />
+      </div>
     </section>
 
     <div class="section-divider"><hr /></div>
